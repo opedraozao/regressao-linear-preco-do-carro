@@ -1,5 +1,5 @@
 # regressao-linear-preco-do-carro
-Regressão Linear Multivariada utilizada para prever o preço dos automóveis em relação a diferentes atributos em um determinado dataset, sejam eles: potência dos seus respectivos motores, consumo médio na cidade, consumo médio na estrada e as cilindradas.
+Regressão Linear Mútipla utilizada para prever o preço dos automóveis em relação a diferentes atributos em um determinado dataset, sejam eles: potência dos seus respectivos motores, consumo médio na cidade, consumo médio na estrada e as cilindradas.
 
 O modelo utiliza métodos estatítisticos e econométricos para identificar as variaveis dependentes: 'engine-size', 'horsepower', 'city-mpg', 'highway-mpg' e a variável independente: logPrice, que foi derivado da coluna 'price' do DataFrame original, transformação comum em modelos de regressão de preços, pois distribuições de preços tendem a ser assimétricas (skewed), e o logaritmo pode torná-las mais simétricas, o que ajuda o modelo linear a performar melhor.
 
